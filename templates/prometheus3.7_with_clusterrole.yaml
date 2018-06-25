@@ -15,16 +15,16 @@ parameters:
 #  value: kube-system
 - description: The location of the proxy image
   name: IMAGE_PROXY
-  value: openshift/oauth-proxy:v1.0.0
+  value: openshift/oauth-proxy:latest
 - description: The location of the prometheus image
   name: IMAGE_PROMETHEUS
-  value: openshift/prometheus:v2.0.0
+  value: openshift/prometheus:latest
 - description: The location of the alertmanager image
   name: IMAGE_ALERTMANAGER
-  value: openshift/prometheus-alertmanager:v0.9.1
+  value: openshift/prometheus-alertmanager:latest
 - description: The location of alert-buffer image
   name: IMAGE_ALERT_BUFFER
-  value: openshift/prometheus-alert-buffer:v0.0.2
+  value: openshift/prometheus-alert-buffer:latest
 - description: The session secret for the proxy
   name: SESSION_SECRET
   generate: expression
